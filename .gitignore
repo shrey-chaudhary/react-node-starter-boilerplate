@@ -1,3 +1,7 @@
 # Dependency directories
 node_modules/
 client/node_modules/
+build/
+client/build/
+package.lock.json
+client/package.lock.json
