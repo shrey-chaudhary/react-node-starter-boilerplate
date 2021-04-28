@@ -1,27 +1,28 @@
 {
-  "name": "react-node-starter-boilerplate",
-  "version": "1.0.0",
-  "description": "Starter boilerplate code for ReactJS and NodeJS applications",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shrey-chaudhary/react-node-starter-boilerplate.git"
-  },
-  "keywords": [
-    "boilerplate",
-    "node",
-    "react"
-  ],
-  "author": "Shrey Chaudhary",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shrey-chaudhary/react-node-starter-boilerplate/issues"
-  },
-  "homepage": "https://github.com/shrey-chaudhary/react-node-starter-boilerplate#readme",
-  "devDependencies": {
-    "webpack-merge": "^5.7.3"
-  }
+    "name": "react-node-starter-boilerplate",
+    "version": "1.0.0",
+    "description": "Starter boilerplate code for ReactJS and NodeJS applications",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shrey-chaudhary/react-node-starter-boilerplate.git"
+    },
+    "keywords": [
+        "boilerplate",
+        "node",
+        "react"
+    ],
+    "author": "Shrey Chaudhary",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/shrey-chaudhary/react-node-starter-boilerplate/issues"
+    },
+    "homepage": "https://github.com/shrey-chaudhary/react-node-starter-boilerplate#readme",
+    "devDependencies": {
+        "webpack-merge": "^5.7.3"
+    },
+    "dependencies": {}
 }
