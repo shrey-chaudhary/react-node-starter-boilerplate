@@ -1,0 +1,32 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(black, rgb(53, 51, 51));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-style {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+.image-style {
+    width: auto;
+    height: 80vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

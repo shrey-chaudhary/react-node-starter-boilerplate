@@ -29,7 +29,16 @@ module.exports = merge(commonconfig, {
     module: {
         rules: [{
             test: /\.(css|scss)$/,
-            use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+            use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
+        }, {
+            test: /\.(svg|jpe?g|gif|png)$/,
+            use: {
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[hash].[ext]',
+                    outputPath: 'images',
+                }
+            },
         }]
     },
     plugins: [

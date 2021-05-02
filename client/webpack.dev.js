@@ -11,7 +11,10 @@ module.exports = merge(commonconfig, {
     module: {
         rules: [{
             test: /\.(css|scss)$/,
-            use: ['style-loader', 'css-loader', 'sass-loader'],
+            use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
+        }, {
+            test: /\.(svg|jpe?g|gif|png)$/,
+            use: 'file-loader',
         }]
     },
     devServer: {
